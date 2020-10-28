@@ -1,0 +1,17 @@
+body button{
+    background:$btn;
+    color: $txt;
+    padding: $paddin;
+    margin: $margin;
+    &:hover{
+        background: yellow;
+        color: red;
+        font-size: 10px;
+    }
+    &::after{
+        content:' hi';
+    }
+    &::before{
+content:'click  ';
+    }
+}
